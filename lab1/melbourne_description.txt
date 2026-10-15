@@ -1,0 +1,41 @@
+Melbourne Housing Snapshot
+
+Source: https://www.kaggle.com/datasets/dansbecker/melbourne-housing-snapshot
+OpenML mirror: https://www.openml.org/d/46077
+Author: Tony Pino (data scraped from publicly available results posted on Domain.com.au)
+License: CC BY-NC-SA 4.0
+
+Sales of houses in Melbourne (Australia), from January 2016 to September 2017.
+13580 rows, 21 columns. The target variable is Price.
+
+Columns:
+
+Suburb: suburb name
+Address: address of the property
+Rooms: number of rooms
+Type: type of the property
+    h - house, cottage, villa, semi, terrace
+    u - unit, duplex
+    t - townhouse
+Price: sale price in Australian dollars (AUD)
+Method: sale method
+    S - property sold
+    SP - property sold prior
+    PI - property passed in
+    VB - vendor bid
+    SA - sold after auction
+SellerG: real estate agent
+Date: date of sale (YYYY-MM-DD)
+Distance: distance from Melbourne central business district (CBD), in kilometers
+Postcode: postal code
+Bedroom2: number of bedrooms (scraped from a different source than Rooms)
+Bathroom: number of bathrooms
+Car: number of car spots
+Landsize: land size in square meters
+BuildingArea: building size in square meters
+YearBuilt: year the house was built
+CouncilArea: governing council for the area
+Lattitude: latitude (spelling as in the original dataset)
+Longtitude: longitude (spelling as in the original dataset)
+Regionname: general region (e.g. West, North West, North, North East, ...)
+Propertycount: number of properties that exist in the suburb

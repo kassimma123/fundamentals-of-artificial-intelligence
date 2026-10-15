@@ -1,0 +1,22 @@
+[project]
+name = "basics-of-ai-agh-lab1"
+version = "1.0.0"
+description = "Basics of Artificial Intelligence course at AGH - lab 1: linear models"
+authors = []
+requires-python = "==3.12.*"
+
+dependencies = [
+    # general
+    "matplotlib",
+    "numpy",
+    "pandas>=3.0",
+    # lab 1 - linear models
+    "feature-engine>=1.9",
+    "scikit-learn>=1.8",
+]
+
+[dependency-groups]
+dev = [
+    # not exported to requirements.txt, it breaks Google Colab
+    "jupyter",
+]
